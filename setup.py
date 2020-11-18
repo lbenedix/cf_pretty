@@ -9,7 +9,7 @@ setup(
     author='Lukas Benedix',
     author_email='pypi@l3q.de',
     url='https://github.com/lbenedix/cf_pretty',
-    download_url='https://github.com/lbenedix/cf_pretty/archive/v_01.tar.gz',
+    download_url='https://github.com/lbenedix/cf_pretty/archive/0.1.tar.gz',
     keywords=['CF', 'CLOUD FOUNDRY', 'KEYWORDS'],
     install_requires=[
         'rapidtables',
