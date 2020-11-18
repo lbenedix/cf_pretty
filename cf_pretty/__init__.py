@@ -1,13 +1,10 @@
 #!/usr/bin/env python3
 import fileinput
-import json
 from itertools import zip_longest
-from subprocess import check_output
 
 from rapidtables import print_table
 
-if __name__ == '__main__':
-
+def main():
     lines = fileinput.input()
     what = next(lines).split(' ')[1]
 
@@ -40,3 +37,6 @@ if __name__ == '__main__':
     result.append({})
 
     print_table(result, tablefmt='md')
+
+if __name__ == '__main__':
+    main()

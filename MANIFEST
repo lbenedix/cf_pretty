@@ -2,3 +2,4 @@
 setup.cfg
 setup.py
 cf_pretty/__init__.py
+cf_pretty/cf_pretty.py
