@@ -3,7 +3,7 @@ from distutils.core import setup
 setup(
     name='cf_pretty',
     packages=['cf_pretty'],
-    version='0.1.3',
+    version='0.1.4',
     license='MIT',
     description='makes cf cli output more readable',
     author='Lukas Benedix',
